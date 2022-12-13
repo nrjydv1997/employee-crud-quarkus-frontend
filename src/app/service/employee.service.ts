@@ -11,7 +11,7 @@ getAllEmpUrl : string;
 updateEmpUrl : string;
 deleteEmpUrl : string;
   constructor(private http : HttpClient) { 
-    this.addEmpUrl = 'http://localhost:8282/emp/addEmployee';
+    this.addEmpUrl = 'http://localhost:8282/emp';
     this.getAllEmpUrl = 'http://localhost:8282/emp/getAllEmp';
     this.updateEmpUrl =  'http://localhost:8282/emp/updateEmployee';
     this.deleteEmpUrl =  'http://localhost:8282/emp/deleteEmployeeById';
